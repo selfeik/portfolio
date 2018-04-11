@@ -2,9 +2,115 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
+  <link rel="stylesheet" href="css/colcha.css">
   <title>Colcha</title>
 </head>
 <body>
 
+  <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+    <a class="navbar-brand" href="#">Colcha de relatos</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#">Acerca del proyecto <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#">El costurero</a>
+        <a class="nav-item nav-link" href="#">Contacto</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <div class="row wrapper">
+      <div class="col-9">
+        <div class="masonry masonry--h">
+            <!-- <input type="button" name="answer" value="Show Div" onclick="showDiv()" /> -->
+
+          <a class="btn-img1" href="#" onclick="toggle_visibility('img1');">
+            <figure class="masonry-brick masonry-brick--h">
+            </figure>
+          </a>
+
+          <a class="btn-img2" href="#" onclick="toggle_visibility('img2');">
+            <figure class="masonry-brick masonry-brick--h">
+            </figure>
+          </a>
+
+          <a class="btn-img3" href="#" onclick="toggle_visibility('img3');">
+            <figure class="masonry-brick masonry-brick--h">
+            </figure>
+          </a>
+
+        </div>
+      </div>
+
+      <div class="col-3">
+        <p>Haz click en un retazo para comenzar</p>
+
+        <div id="img1" class="hidden">
+          <p class="title">Retazo # 1</p>
+          <audio controls>
+            <source src="horse.ogg" type="audio/ogg">
+            <source src="assets/audios/01.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div id="img2" class="hidden">
+          <p class="title">Retazo # 2</p>
+          <audio controls>
+            <source src="horse.ogg" type="audio/ogg">
+            <source src="assets/audios/03.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <!-- <div id="img3" clas s="hidden">
+          <p class="title">Retazo # 3</p>
+          <audio controls>
+            <source src="horse.ogg" type="audio/ogg">
+            <source src="assets/audios/05.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div> -->
+
+        <!-- Hide -->
+        <!-- <div id="welcomeDiv"  style="display:none;" class="answer_list" > WELCOME</div>
+        <div id="welcomeDiv2"  style="display:none;" class="answer_list" > Other</div>
+        <div id="welcomeDiv3"  style="display:none;" class="answer_list" > Div</div> -->
+      </div>
+    </div>
+  </div>
+
+
+ <!--  <script>
+    function showDiv() {
+       document.getElementById('welcomeDiv').style.display = "block";
+    }
+
+    function showDiv2() {
+       document.getElementById('welcomeDiv2').style.display = "block";
+    }
+
+    function showDiv3() {
+       document.getElementById('welcomeDiv3').style.display = "block";
+    }
+  </script> -->
+
+  <script type="text/javascript">
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+</script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 </body>
 </html>

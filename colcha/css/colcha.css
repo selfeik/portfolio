@@ -1,0 +1,57 @@
+
+body {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.wrapper {
+  margin: 2em auto;
+  background-image: url("../assets/colcha.png");
+  background-repeat: no-repeat;
+  height: 960px;
+  position: relative;
+}
+.masonry {
+    display: flex;
+    width: 100%;
+}
+
+.masonry--h {
+    margin-left: -8px;
+    counter-reset: brick;
+    flex-flow: row wrap;
+}
+.masonry-brick {
+    overflow: hidden;
+    border-radius: 5px;
+    margin: 0 0 8px 8px;
+    color: white;
+    position: relative;
+}
+.masonry-brick--h {
+    flex: auto;
+    /*height: 250px;
+    min-width: 150px;*/
+}
+
+.btn-img1 {
+    width: 90px;
+    height: 72px;
+    opacity: -0.5;
+    position: absolute;
+    top: 36px;
+    left: 40px;
+    z-index: 1;
+}
+.btn-img2 {
+    width: 94px;
+    height: 81px;
+    opacity: -0.5;
+    position: absolute;
+    top: 24px;
+    left: 133px;
+    z-index: 1;
+}
+
+.hidden {
+  display: none;
+}

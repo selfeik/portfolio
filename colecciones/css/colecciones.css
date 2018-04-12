@@ -1,0 +1,40 @@
+
+/* content */
+.colections-banner {
+  background-color: rgb(247,247,247);
+  padding: 4rem 5rem;
+}
+.green-line {
+    display: inline-block;
+    background: rgb(190,180,0);
+    width: 500px;
+    height: 1px;
+    vertical-align: middle;
+}
+.green-line.two {
+    width: 150px;
+}
+.colections-content,
+.colections-info{
+  letter-spacing: 0.5px;
+}
+.colections-content p {
+  margin-top: 24px;
+  text-align: justify;
+}
+.colections-e {
+  color: rgb(100,8,97);
+}
+.divider {
+  border: .5px solid grey;
+  margin: 28px 0;
+}
+
+.colections-vocabulary {
+  margin-top: 28px;
+}
+
+.colections-info a {
+  color: #333;
+  border-bottom: 2px solid rgb(190,180,0);
+}

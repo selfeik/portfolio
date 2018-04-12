@@ -1,0 +1,53 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(247,247,247);
+}
+
+h1, h2 {
+  font-family: 'Arapey', serif;
+  font-style: italic;
+  letter-spacing: 5px;
+  color: rgb(190,180,0);
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 3.5rem;
+}
+h2 {
+  text-transform: lowercase;
+  font-size: 3rem;
+}
+h3 {
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+}
+
+/* Menú */
+.colections-header {
+  background: white;
+}
+.colections-header .navbar {
+  padding: 1.5rem 5rem;
+}
+.colections-header .navbar-nav a {
+  text-transform: uppercase;
+  color: #333;
+  font-size: .9em;
+  letter-spacing: 5px;
+}
+
+/* Footer */
+footer {
+  background-color: rgb(237,237,237);
+  padding: 70px;
+  text-align: center;
+}
+footer p {
+  font-weight: 300;
+  font-size: .9em;
+  margin-bottom: .5rem;
+}
+.mx-auto {
+  text-align: center;
+}

@@ -23,6 +23,10 @@ h3 {
   letter-spacing: 3px;
 }
 
+h1 span {
+  text-transform: capitalize;
+}
+
 /* Menú */
 .colections-header {
   background: white;
@@ -35,6 +39,18 @@ h3 {
   color: #333;
   font-size: .9em;
   letter-spacing: 5px;
+}
+
+/* Content */
+.green-line {
+    display: inline-block;
+    background: rgb(190,180,0);
+    width: 500px;
+    height: 1px;
+    vertical-align: middle;
+}
+.green-line.two {
+    width: 150px;
 }
 
 /* Footer */

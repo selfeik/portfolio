@@ -4,16 +4,7 @@
   background-color: rgb(247,247,247);
   padding: 4rem 5rem;
 }
-.green-line {
-    display: inline-block;
-    background: rgb(190,180,0);
-    width: 500px;
-    height: 1px;
-    vertical-align: middle;
-}
-.green-line.two {
-    width: 150px;
-}
+
 .colections-content,
 .colections-info{
   letter-spacing: 0.5px;

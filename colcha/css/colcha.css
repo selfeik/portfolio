@@ -1,6 +1,7 @@
-
 body {
   font-family: 'Rajdhani', sans-serif;
+  background-color: #F4F8E1;
+  color: #A2000B;
 }
 
 .wrapper {
@@ -10,48 +11,57 @@ body {
   height: 960px;
   position: relative;
 }
-.masonry {
-    display: flex;
-    width: 100%;
-}
 
+.masonry {
+  display: flex;
+  width: 100%;
+}
 .masonry--h {
-    margin-left: -8px;
-    counter-reset: brick;
-    flex-flow: row wrap;
+  margin-left: -8px;
+  counter-reset: brick;
+  flex-flow: row wrap;
 }
 .masonry-brick {
-    overflow: hidden;
-    border-radius: 5px;
-    margin: 0 0 8px 8px;
-    color: white;
-    position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  margin: 0 0 8px 8px;
+  color: white;
+  position: relative;
 }
 .masonry-brick--h {
-    flex: auto;
-    /*height: 250px;
-    min-width: 150px;*/
-}
-
-.btn-img1 {
-    width: 90px;
-    height: 72px;
-    opacity: -0.5;
-    position: absolute;
-    top: 36px;
-    left: 40px;
-    z-index: 1;
-}
-.btn-img2 {
-    width: 94px;
-    height: 81px;
-    opacity: -0.5;
-    position: absolute;
-    top: 24px;
-    left: 133px;
-    z-index: 1;
+  flex: auto;
 }
 
 .hidden {
   display: none;
+}
+
+.colcha-nav {
+  background-color: #FFF8F5;
+  justify-content: space-around;
+}
+.colcha-nav a {
+  color: #333;
+  text-transform: uppercase;
+}
+.navbar-nav .nav-link{
+  padding: .5rem 1rem;
+}
+
+ul.nav.colcha-menu li {
+  border-right: 2px dashed #A2000B;
+  line-height: 0px;
+}
+
+.retazo-colcha {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  border-left: 2px dashed;
+}
+
+.masonry.masonry--h a:hover{
+  background: red;
+  box-shadow: 0px 0px 38px red;
+  border-radius: 15px;
 }

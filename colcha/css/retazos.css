@@ -63,13 +63,16 @@
   z-index: 1;
 }
 .btn-img8 {
-  width: 97px;
-  height: 96px;
+  width: 102px;
+  height: 99px;
   opacity: 0.1;
   position: absolute;
   top: 103px;
-  left: 414px;
+  left: 409px;
   z-index: 1;
+  -webkit-transform: skew(-4deg);
+     -moz-transform: skew(-4deg);
+	     -o-transform: skew(-4deg);
 }
 .btn-img9 {
   width: 132px;

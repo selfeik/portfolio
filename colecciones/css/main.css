@@ -5,8 +5,7 @@ body {
 
 h1, h2 {
   font-family: 'Arapey', serif;
-  font-style: italic;
-  letter-spacing: 5px;
+  letter-spacing: 10px;
   color: rgb(190,180,0);
 }
 
@@ -24,7 +23,20 @@ h3 {
 }
 
 h1 span {
-  text-transform: capitalize;
+  text-transform: initial;
+  font-style: italic;
+}
+
+a {
+  color: #333;
+}
+a:hover {
+  text-decoration: none;
+  color: rgb(190,180,0);
+}
+
+p {
+  letter-spacing: 0.5px;
 }
 
 /* Menú */
@@ -41,16 +53,67 @@ h1 span {
   letter-spacing: 5px;
 }
 
+/* Banner */
+.container img {
+  width: 100%;
+}
+.colections-banner {
+  background-color: rgb(247,247,247);
+}
+.coleccion-banner {
+  position: relative;
+}
+.coleccion-button {
+  position: absolute;
+  top: 200px;
+  right: 120px;
+  border: none;
+  background: rgb(190,180,0);
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  padding: 13px 23px;
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+.coleccion-button:hover {
+  color: white;
+  text-decoration: none;
+}
+
 /* Content */
 .green-line {
-    display: inline-block;
-    background: rgb(190,180,0);
-    width: 500px;
-    height: 1px;
-    vertical-align: middle;
+  display: inline-block;
+  background: rgb(190,180,0);
+  width: 500px;
+  height: 1px;
+  vertical-align: middle;
 }
 .green-line.two {
-    width: 150px;
+  width: 150px;
+}
+.green-line-g {
+  width: 450px;
+}
+.green-line-b {
+  width: 250px;
+  margin-right: 18px;
+}
+.green-line-gt {
+  width: 370px;
+}
+
+.colecciones-a {
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  color: #333;
+  padding: 12px 20px;
+  border-bottom: 2px solid rgb(190,180,0);
+  float: left;
+}
+.colecciones-a:hover{
+  text-decoration: none;
+  color: #333;
 }
 
 /* Footer */
@@ -60,9 +123,13 @@ footer {
   text-align: center;
 }
 footer p {
+  color: #58595b;
   font-weight: 300;
   font-size: .9em;
-  margin-bottom: .5rem;
+  margin-bottom: .3rem;
+}
+footer a {
+  color: #58595b;
 }
 .mx-auto {
   text-align: center;

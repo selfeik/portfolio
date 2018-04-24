@@ -6,6 +6,7 @@
   top: 36px;
   left: 40px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
 }
 .btn-img2 {
   width: 94px;

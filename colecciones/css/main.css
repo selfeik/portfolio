@@ -40,6 +40,9 @@ p {
 }
 
 /* Menú */
+.sticky-top {
+  z-index: 1;
+}
 .colections-header {
   background: white;
 }
@@ -101,6 +104,9 @@ p {
 }
 .green-line-gt {
   width: 370px;
+}
+.green-line-c {
+  width: 200px;
 }
 
 .colecciones-a {

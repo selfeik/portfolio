@@ -651,109 +651,112 @@ a.btn-img38:hover:before {
 }
 /**/
 .btn-img42 {
-  width: 95px;
-  height: 94px;
-  opacity: 0.2;
+  width: 99px;
+  height: 99px;
+  opacity: 0.3;
   position: absolute;
-  top: 713px;
-  left: 44px;
+  top: 711px;
+  left: 42px;
   z-index: 1;
   transition: all 0.5s ease-in-out;
-          transform: skew(-2deg);
-  -webkit-transform: skew(-2deg);
-     -moz-transform: skew(-2deg);
-       -o-transform: skew(-2deg);
+          transform: skew(2deg);
+  -webkit-transform: skew(2deg);
+     -moz-transform: skew(2deg);
+       -o-transform: skew(2deg);
 }
 .btn-img43 {
-  width: 92px;
-  height: 94px;
-  opacity: 0.2;
+  width: 96px;
+  height: 96px;
+  opacity: 0.3;
   position: absolute;
-  top: 713px;
-  left: 143px;
+  top: 712px;
+  left: 142px;
   z-index: 1;
   transition: all 0.5s ease-in-out;
-          transform: skew(-2deg);
-  -webkit-transform: skew(-2deg);
-     -moz-transform: skew(-2deg);
-       -o-transform: skew(-2deg);
+          transform: skew(1deg);
+  -webkit-transform: skew(1deg);
+     -moz-transform: skew(1deg);
+       -o-transform: skew(1deg);
 }
 .btn-img44 {
-  width: 93px;
-  height: 94px;
-  opacity: 0.2;
+  width: 96px;
+  height: 100px;
+  opacity: 0.3;
   position: absolute;
-  top: 713px;
-  left: 240px;
+  top: 710px;
+  left: 238px;
   z-index: 1;
   transition: all 0.5s ease-in-out;
-          transform: skew(-2deg);
-  -webkit-transform: skew(-2deg);
-     -moz-transform: skew(-2deg);
-       -o-transform: skew(-2deg);
+          transform: skew(-3deg);
+  -webkit-transform: skew(-3deg);
+     -moz-transform: skew(-3deg);
+       -o-transform: skew(-3deg);
 }
 .btn-img45 {
-  width: 113px;
-  height: 92px;
+  width: 115px;
+  height: 91px;
   opacity: 0.2;
   position: absolute;
-  top: 718px;
-  left: 337px;
+  top: 720px;
+  left: 335px;
   z-index: 1;
   transition: all 0.5s ease-in-out;
-          transform: skew(-2deg);
-  -webkit-transform: skew(-2deg);
-     -moz-transform: skew(-2deg);
-       -o-transform: skew(-2deg);
+          transform: skew(-6deg);
+  -webkit-transform: skew(-6deg);
+     -moz-transform: skew(-6deg);
+       -o-transform: skew(-6deg);
+}
+a.btn-img45:hover {
+  border-radius: 5px 28px 0 0 !important;
 }
 .btn-img46 {
-  width: 77px;
-  height: 84px;
-  opacity: 0.2;
+  width: 86px;
+  height: 88px;
+  opacity: 0.3;
   position: absolute;
-  top: 732px;
-  left: 455px;
+  top: 730px;
+  left: 451px;
   z-index: 1;
   transition: all 0.5s ease-in-out;
-          transform: skew(-2deg);
-  -webkit-transform: skew(-2deg);
-     -moz-transform: skew(-2deg);
-       -o-transform: skew(-2deg);
+          transform: skew(-5deg);
+  -webkit-transform: skew(-5deg);
+     -moz-transform: skew(-5deg);
+       -o-transform: skew(-5deg);
 }
 .btn-img47 {
-  width: 41px;
-  height: 89px;
-  opacity: 0.2;
+  width: 46px;
+  height: 92px;
+  opacity: 0.3;
   position: absolute;
-  top: 731px;
-  left: 540px;
+  top: 729px;
+  left: 537px;
   z-index: 1;
   transition: all 0.5s ease-in-out;
-          transform: skew(-2deg);
-  -webkit-transform: skew(-2deg);
-     -moz-transform: skew(-2deg);
-       -o-transform: skew(-2deg);
+          transform: skew(-5deg);
+  -webkit-transform: skew(-5deg);
+     -moz-transform: skew(-5deg);
+       -o-transform: skew(-5deg);
 }
 .btn-img48 {
   width: 97px;
-  height: 86px;
-  opacity: 0.2;
-  position: absolute;
-  top: 728px;
-  left: 584px;
-  z-index: 1;
-  transition: all 0.5s ease-in-out;
-          transform: skew(-2deg);
-  -webkit-transform: skew(-2deg);
-     -moz-transform: skew(-2deg);
-       -o-transform: skew(-2deg);
-}
-.btn-img49 {
-  width: 54px;
-  height: 86px;
+  height: 90px;
   opacity: 0.2;
   position: absolute;
   top: 724px;
+  left: 585px;
+  z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-3deg);
+  -webkit-transform: skew(-3deg);
+     -moz-transform: skew(-3deg);
+       -o-transform: skew(-3deg);
+}
+.btn-img49 {
+  width: 56px;
+  height: 90px;
+  opacity: 0.2;
+  position: absolute;
+  top: 722px;
   left: 684px;
   z-index: 1;
   transition: all 0.5s ease-in-out;
@@ -763,12 +766,12 @@ a.btn-img38:hover:before {
        -o-transform: skew(-2deg);
 }
 .btn-img50 {
-  width: 73px;
-  height: 201px;
+  width: 76px;
+  height: 203px;
   opacity: 0.2;
   position: absolute;
-  top: 728px;
-  left: 741px;
+  top: 726px;
+  left: 739px;
   z-index: 1;
   transition: all 0.5s ease-in-out;
           transform: skew(-2deg);
@@ -778,65 +781,74 @@ a.btn-img38:hover:before {
 }
 /**/
 .btn-img51 {
-  width: 88px;
-  height: 100px;
+  width: 92px;
+  height: 101px;
   opacity: 0.2;
   position: absolute;
   top: 811px;
-  left: 53px;
+  left: 51px;
   z-index: 1;
   transition: all 0.5s ease-in-out;
-          transform: skew(-2deg);
-  -webkit-transform: skew(-2deg);
-     -moz-transform: skew(-2deg);
-       -o-transform: skew(-2deg);
+          transform: skew(7deg);
+  -webkit-transform: skew(7deg);
+     -moz-transform: skew(7deg);
+       -o-transform: skew(7deg);
 }
 .btn-img52 {
-  width: 84px;
+  width: 87px;
   height: 100px;
   opacity: 0.2;
   position: absolute;
-  top: 810px;
-  left: 148px;
+  top: 809px;
+  left: 145px;
   z-index: 1;
   transition: all 0.5s ease-in-out;
-          transform: skew(-2deg);
-  -webkit-transform: skew(-2deg);
-     -moz-transform: skew(-2deg);
-       -o-transform: skew(-2deg);
+          transform: skew(3deg);
+  -webkit-transform: skew(3deg);
+     -moz-transform: skew(3deg);
+       -o-transform: skew(3deg);
 }
 .btn-img53 {
-  width: 90px;
+  width: 92px;
   height: 95px;
-  opacity: 0.2;
+  opacity: 0.23;
   position: absolute;
   top: 810px;
   left: 234px;
   z-index: 1;
-  transition: all 0.5s ease-in-out;
-          transform: skew(-2deg);
-  -webkit-transform: skew(-2deg);
-     -moz-transform: skew(-2deg);
-       -o-transform: skew(-2deg);
+  transition: all 0.1s ease-in-out;
+          transform: skew(2deg);
+  -webkit-transform: skew(2deg);
+     -moz-transform: skew(2deg);
+       -o-transform: skew(2deg);
+}
+a.btn-img53:hover:after {
+  content: '';
+  border: 27px solid red;
+  position: absolute;
+  right: -8px;
+  top: 0px;
+  border-radius: 9px;
+  transform: skew(-6deg);
 }
 .btn-img54 {
-  width: 97px;
+  width: 106px;
   height: 98px;
-  opacity: 0.2;
+  opacity: 0.23;
   position: absolute;
-  top: 813px;
-  left: 336px;
+  top: 812px;
+  left: 332px;
   z-index: 1;
   transition: all 0.5s ease-in-out;
-          transform: skew(-2deg);
-  -webkit-transform: skew(-2deg);
-     -moz-transform: skew(-2deg);
-       -o-transform: skew(-2deg);
+          transform: skew(-7deg);
+  -webkit-transform: skew(-7deg);
+     -moz-transform: skew(-7deg);
+       -o-transform: skew(-7deg);
 }
 .btn-img55 {
   width: 90px;
   height: 98px;
-  opacity: 0.2;
+  opacity: 0.3;
   position: absolute;
   top: 820px;
   left: 440px;
@@ -849,26 +861,26 @@ a.btn-img38:hover:before {
 }
 
 .btn-img56 {
-  width: 85px;
-  height: 93px;
-  opacity: 0.2;
-  position: absolute;
-  top: 823px;
-  left: 533px;
-  z-index: 1;
-  transition: all 0.5s ease-in-out;
-          transform: skew(-2deg);
-  -webkit-transform: skew(-2deg);
-     -moz-transform: skew(-2deg);
-       -o-transform: skew(-2deg);
-}
-.btn-img57 {
-  width: 112px;
+  width: 90px;
   height: 95px;
   opacity: 0.2;
   position: absolute;
-  top: 819px;
-  left: 622px;
+  top: 822px;
+  left: 530px;
+  z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-1deg);
+  -webkit-transform: skew(-1deg);
+     -moz-transform: skew(-1deg);
+       -o-transform: skew(-1deg);
+}
+.btn-img57 {
+  width: 118px;
+  height: 99px;
+  opacity: 0.2;
+  position: absolute;
+  top: 817px;
+  left: 620px;
   z-index: 1;
   transition: all 0.5s ease-in-out;
           transform: skew(-2deg);
@@ -878,7 +890,7 @@ a.btn-img38:hover:before {
 }
 .btn-img58 {
   width: 146px;
-  height: 106px;
+  height: 108px;
   opacity: 0.2;
   position: absolute;
   top: 827px;
@@ -889,4 +901,7 @@ a.btn-img38:hover:before {
   -webkit-transform: skew(-2deg);
      -moz-transform: skew(-2deg);
        -o-transform: skew(-2deg);
+}
+a.btn-img58:hover {
+  border-radius: 5px 0 46px 0 !important;
 }

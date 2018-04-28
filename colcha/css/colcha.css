@@ -67,7 +67,7 @@ ul.nav.colcha-menu li {
 
 .masonry.masonry--h a:hover{
   background: red;
-  box-shadow: 0px 0px 38px red;
+  box-shadow: 0px 0px 50px black;
   border-radius: 5px;
 }
 

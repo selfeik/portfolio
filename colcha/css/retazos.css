@@ -1,67 +1,101 @@
 .btn-img1 {
-  width: 90px;
-  height: 72px;
+  width: 89px;
+  height: 76px;
   opacity: 0.1;
   position: absolute;
-  top: 36px;
+  top: 32px;
   left: 40px;
   z-index: 1;
   transition: all 0.5s ease-in-out;
+          transform: skew(-5deg);
+  -webkit-transform: skew(-5deg);
+     -moz-transform: skew(-5deg);
+       -o-transform: skew(-5deg);
 }
 .btn-img2 {
-  width: 94px;
-  height: 81px;
-  opacity: 0.1;
+  width: 97px;
+  height: 87px;
+  opacity: 0.2;
   position: absolute;
   top: 24px;
-  left: 133px;
+  left: 131px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-2deg);
+  -webkit-transform: skew(-2deg);
+     -moz-transform: skew(-2deg);
+       -o-transform: skew(-2deg);
 }
 .btn-img3 {
-  width: 70px;
+  width: 71px;
   height: 88px;
-  opacity: 0.1;
+  opacity: 0.2;
   position: absolute;
   top: 24px;
   left: 230px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-2deg);
+  -webkit-transform: skew(-2deg);
+     -moz-transform: skew(-2deg);
+       -o-transform: skew(-2deg);
 }
 /**/
 .btn-img4 {
-  width: 90px;
-  height: 70px;
+  width: 89px;
+  height: 74px;
   opacity: 0.1;
   position: absolute;
-  top: 116px;
-  left: 32px;
+  top: 113px;
+  left: 34px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-2deg);
+  -webkit-transform: skew(-2deg);
+     -moz-transform: skew(-2deg);
+       -o-transform: skew(-2deg);
 }
 .btn-img5 {
   width: 90px;
-  height: 70px;
+  height: 73px;
   opacity: 0.1;
   position: absolute;
-  top: 113px;
+  top: 109px;
   left: 124px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-3deg);
+  -webkit-transform: skew(-3deg);
+     -moz-transform: skew(-3deg);
+       -o-transform: skew(-3deg);
 }
 .btn-img6 {
-  width: 97px;
-  height: 75px;
+  width: 99px;
+  height: 77px;
   opacity: 0.1;
   position: absolute;
-  top: 113px;
+  top: 111px;
   left: 216px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-3deg);
+  -webkit-transform: skew(-3deg);
+     -moz-transform: skew(-3deg);
+       -o-transform: skew(-3deg);
 }
 .btn-img7 {
   width: 92px;
-  height: 90px;
-  opacity: 0.1;
+  height: 93px;
+  opacity: 0.2;
   position: absolute;
-  top: 103px;
+  top: 102px;
   left: 317px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-5deg);
+  -webkit-transform: skew(-5deg);
+     -moz-transform: skew(-5deg);
+       -o-transform: skew(-5deg);
 }
 .btn-img8 {
   width: 102px;
@@ -71,36 +105,78 @@
   top: 103px;
   left: 409px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-4deg);
   -webkit-transform: skew(-4deg);
      -moz-transform: skew(-4deg);
 	     -o-transform: skew(-4deg);
 }
 .btn-img9 {
-  width: 132px;
-  height: 96px;
+  width: 126px;
+  height: 100px;
   opacity: 0.1;
   position: absolute;
-  top: 107px;
-  left: 511px;
+  top: 108px;
+  left: 513px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-5deg);
+  -webkit-transform: skew(-5deg);
+     -moz-transform: skew(-5deg);
+       -o-transform: skew(-5deg);
 }
 .btn-img10 {
-  width: 173px;
-  height: 109px;
-  opacity: 0.1;
+  width: 174px;
+  height: 111px;
+  opacity: 0.2;
   position: absolute;
-  top: 107px;
+  top: 105px;
   left: 644px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-3deg);
+  -webkit-transform: skew(-3deg);
+     -moz-transform: skew(-3deg);
+       -o-transform: skew(-3deg);
 }
 .btn-img11 {
-  width: 153px;
-  height: 127px;
+  width: 149px;
+  height: 108px;
   opacity: 0.1;
   position: absolute;
-  top: 107px;
-  left: 820px;
+  top: 129px;
+  left: 819px;
   z-index: 1;
+  transition: all 0.1s ease-in-out;
+          transform: skew(-2deg);
+  -webkit-transform: skew(-2deg);
+     -moz-transform: skew(-2deg);
+       -o-transform: skew(-2deg);
+}
+a.btn-img11:hover:before {
+    transition: all 0.2s ease-in-out;
+    content: '';
+    border: 47px solid red;
+    width: 41px;
+    height: 5px;
+    border-radius: 5px 0;
+    position: absolute;
+    top: -25px;
+}
+a.btn-img11:hover:after {
+    transition: all 0.2s ease-in-out;
+    content: '';
+    border: 19px solid red;
+    width: 26px;
+    height: 9px;
+    position: absolute;
+    top: -31px;
+    left: 82px;
+    border-radius: 13px;
+            transform: skew(65deg);
+    -webkit-transform: skew(65deg);
+     -moz-transform: skew(65deg);
+       -o-transform: skew(65deg);
 }
 /**/
 .btn-img12 {
@@ -108,427 +184,709 @@
   height: 176px;
   opacity: 0.1;
   position: absolute;
-  top: 194px;
+  top: 192px;
   left: 30px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-4deg);
+  -webkit-transform: skew(-4deg);
+     -moz-transform: skew(-4deg);
+       -o-transform: skew(-4deg);
 }
 .btn-img13 {
-  width: 86px;
+  width: 91px;
   height: 180px;
-  opacity: 0.1;
+  opacity: 0.2;
   position: absolute;
   top: 191px;
-  left: 270px;
+  left: 268px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-4deg);
+  -webkit-transform: skew(-4deg);
+     -moz-transform: skew(-4deg);
+       -o-transform: skew(-4deg);
 }
 .btn-img14 {
-  width: 103px;
-  height: 84px;
-  opacity: 0.1;
+  width: 107px;
+  height: 88px;
+  opacity: 0.3;
   position: absolute;
-  top: 202px;
-  left: 365px;
+  top: 200px;
+  left: 361px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-8deg);
+  -webkit-transform: skew(-8deg);
+     -moz-transform: skew(-8deg);
+       -o-transform: skew(-8deg);
 }
 .btn-img15 {
-  width: 99px;
-  height: 82px;
-  opacity: 0.1;
+  width: 108px;
+  height: 86px;
+  opacity: 0.2;
   position: absolute;
-  top: 288px;
-  left: 357px;
+  top: 286px;
+  left: 353px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-8deg);
+  -webkit-transform: skew(-8deg);
+     -moz-transform: skew(-8deg);
+       -o-transform: skew(-8deg);
 }
 .btn-img16 {
-  width: 187px;
-  height: 157px;
+  width: 190px;
+  height: 166px;
   opacity: 0.1;
   position: absolute;
-  top: 213px;
-  left: 469px;
+  top: 208px;
+  left: 464px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-5deg);
+  -webkit-transform: skew(-5deg);
+     -moz-transform: skew(-5deg);
+       -o-transform: skew(-5deg);
 }
 .btn-img17 {
-  width: 154px;
+  width: 164px;
   height: 157px;
   opacity: 0.1;
   position: absolute;
   top: 224px;
-  left: 661px;
+  left: 655px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-2deg);
+  -webkit-transform: skew(-2deg);
+     -moz-transform: skew(-2deg);
+       -o-transform: skew(-2deg);
 }
 .btn-img18 {
-  width: 130px;
-  height: 167px;
-  opacity: 0.1;
+  width: 138px;
+  height: 170px;
+  opacity: 0.2;
   position: absolute;
-  top: 245px;
-  left: 824px;
+  top: 242px;
+  left: 817px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-2deg);
+  -webkit-transform: skew(-2deg);
+     -moz-transform: skew(-2deg);
+       -o-transform: skew(-2deg);
 }
 /**/
 .btn-img19 {
-  width: 159px;
+  width: 157px;
   height: 138px;
-  opacity: 0.1;
+  opacity: 0.2;
   position: absolute;
-  top: 377px;
+  top: 375px;
   left: 36px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(5deg);
+  -webkit-transform: skew(5deg);
+     -moz-transform: skew(5deg);
+       -o-transform: skew(5deg);
 }
 .btn-img20 {
-  width: 111px;
-  height: 137px;
-  opacity: 0.1;
+  width: 118px;
+  height: 140px;
+  opacity: 0.2;
   position: absolute;
   top: 371px;
   left: 199px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-2deg);
+  -webkit-transform: skew(-2deg);
+     -moz-transform: skew(-2deg);
+       -o-transform: skew(-2deg);
 }
 .btn-img21 {
-  width: 95px;
-  height: 140px;
-  opacity: 0.1;
+  width: 103px;
+  height: 142px;
+  opacity: 0.2;
   position: absolute;
   top: 371px;
-  left: 321px;
+  left: 318px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-6deg);
+  -webkit-transform: skew(-6deg);
+     -moz-transform: skew(-6deg);
+       -o-transform: skew(-6deg);
 }
 .btn-img22 {
-  width: 155px;
-  height: 140px;
+  width: 160px;
+  height: 146px;
   opacity: 0.1;
   position: absolute;
   top: 375px;
-  left: 427px;
+  left: 420px;
   z-index: 1;
+  transition: all 0.1s ease-in-out;
+          transform: skew(-5deg);
+  -webkit-transform: skew(-5deg);
+     -moz-transform: skew(-5deg);
+       -o-transform: skew(-5deg);
+}
+a.btn-img22:hover:before {
+  content: '';
+  border: 49px solid red;
+  position: absolute;
+  right: -8px;
+  width: 4px;
+  height: 27px;
+  bottom: 0;
+  border-radius: 9px 0;
+          transform: skew(2deg);
+  -webkit-transform: skew(2deg);
+     -moz-transform: skew(2deg);
+       -o-transform: skew(2deg);
 }
 .btn-img23 {
-  width: 111px;
-  height: 133px;
-  opacity: 0.1;
+  width: 117px;
+  height: 136px;
+  opacity: 0.2;
   position: absolute;
   top: 384px;
-  left: 589px;
+  left: 588px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-3deg);
+  -webkit-transform: skew(-3deg);
+     -moz-transform: skew(-3deg);
+       -o-transform: skew(-3deg);
 }
 .btn-img24 {
-  width: 102px;
+  width: 109px;
   height: 132px;
   opacity: 0.1;
   position: absolute;
-  top: 388px;
-  left: 712px;
+  top: 389px;
+  left: 706px;
   z-index: 1;
+  transition: all 0.1s ease-in-out;
+          transform: skew(-4deg);
+  -webkit-transform: skew(-4deg);
+     -moz-transform: skew(-4deg);
+       -o-transform: skew(-4deg);
+}
+a.btn-img24:hover:after {
+  content: '';
+  border: 24px solid red;
+  position: absolute;
+  bottom: -8px;
+  right: -6px;
+          transform: skew(8deg);
+  -webkit-transform: skew(8deg);
+     -moz-transform: skew(8deg);
+       -o-transform: skew(8deg);
 }
 .btn-img25 {
-  width: 145px;
-  height: 194px;
-  opacity: 0.1;
+  width: 146px;
+  height: 205px;
+  opacity: 0.2;
   position: absolute;
-  top: 415px;
+  top: 412px;
   left: 818px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-1deg);
+  -webkit-transform: skew(-1deg);
+     -moz-transform: skew(-1deg);
+       -o-transform: skew(-1deg);
 }
 /**/
 .btn-img26 {
-  width: 59px;
-  height: 94px;
-  opacity: 0.1;
-  position: absolute;
-  top: 517px;
-  left: 45px;
-  z-index: 1;
-}
-.btn-img27 {
-  width: 101px;
-  height: 94px;
-  opacity: 0.1;
-  position: absolute;
-  top: 519px;
-  left: 108px;
-  z-index: 1;
-}
-.btn-img28 {
-  width: 163px;
-  height: 94px;
-  opacity: 0.1;
+  width: 54px;
+  height: 96px;
+  opacity: 0.2;
   position: absolute;
   top: 516px;
-  left: 213px;
+  left: 52px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(6deg);
+  -webkit-transform: skew(6deg);
+     -moz-transform: skew(6deg);
+       -o-transform: skew(6deg);
+}
+.btn-img27 {
+  width: 106px;
+  height: 97px;
+  opacity: 0.2;
+  position: absolute;
+  top: 517px;
+  left: 105px;
+  z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(4deg);
+  -webkit-transform: skew(4deg);
+     -moz-transform: skew(4deg);
+       -o-transform: skew(4deg);
+}
+.btn-img28 {
+  width: 168px;
+  height: 99px;
+  opacity: 0.1;
+  position: absolute;
+  top: 515px;
+  left: 211px;
+  z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(4deg);
+  -webkit-transform: skew(4deg);
+     -moz-transform: skew(4deg);
+       -o-transform: skew(4deg);
 }
 .btn-img29 {
-  width: 47px;
-  height: 93px;
-  opacity: 0.1;
+  width: 50px;
+  height: 94px;
+  opacity: 0.3;
   position: absolute;
-  top: 519px;
-  left: 383px;
+  top: 520px;
+  left: 381px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-1deg);
+  -webkit-transform: skew(-1deg);
+     -moz-transform: skew(-1deg);
+       -o-transform: skew(-1deg);
 }
 .btn-img30 {
-  width: 128px;
-  height: 85px;
+  width: 140px;
+  height: 89px;
   opacity: 0.1;
   position: absolute;
-  top: 521px;
-  left: 435px;
+  top: 520px;
+  left: 431px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-3deg);
+  -webkit-transform: skew(-3deg);
+     -moz-transform: skew(-3deg);
+       -o-transform: skew(-3deg);
 }
 .btn-img31 {
-  width: 87px;
+  width: 98px;
   height: 88px;
   opacity: 0.1;
   position: absolute;
-  top: 522px;
-  left: 579px;
+  top: 523px;
+  left: 569px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-7deg);
+  -webkit-transform: skew(-7deg);
+     -moz-transform: skew(-7deg);
+       -o-transform: skew(-7deg);
 }
 .btn-img32 {
-  width: 145px;
-  height: 87px;
-  opacity: 0.1;
+  width: 152px;
+  height: 89px;
+  opacity: 0.3;
   position: absolute;
   top: 527px;
-  left: 673px;
+  left: 669px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-5deg);
+  -webkit-transform: skew(-5deg);
+     -moz-transform: skew(-5deg);
+       -o-transform: skew(-5deg);
 }
 /**/
 .btn-img33 {
-  width: 93px;
-  height: 94px;
-  opacity: 0.1;
+  width: 96px;
+  height: 100px;
+  opacity: 0.3;
   position: absolute;
-  top: 614px;
+  top: 612px;
   left: 44px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(2deg);
+  -webkit-transform: skew(2deg);
+     -moz-transform: skew(2deg);
+       -o-transform: skew(2deg);
 }
 .btn-img34 {
-  width: 93px;
-  height: 94px;
-  opacity: 0.1;
-  position: absolute;
-  top: 616px;
-  left: 144px;
-  z-index: 1;
-}
-.btn-img35 {
-  width: 54px;
-  height: 94px;
-  opacity: 0.1;
-  position: absolute;
-  top: 616px;
-  left: 242px;
-  z-index: 1;
-}
-.btn-img36 {
-  width: 97px;
-  height: 94px;
-  opacity: 0.1;
-  position: absolute;
-  top: 616px;
-  left: 300px;
-  z-index: 1;
-}
-.btn-img37 {
-  width: 95px;
- height: 101px;
- opacity: 0.1;
- position: absolute;
- top: 616px;
- left: 403px;
- z-index: 1;
-}
-.btn-img38 {
-  width: 109px;
-  height: 110px;
-  opacity: 0.1;
+  width: 99px;
+  height: 98px;
+  opacity: 0.2;
   position: absolute;
   top: 614px;
-  left: 510px;
+  left: 142px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(2deg);
+  -webkit-transform: skew(2deg);
+     -moz-transform: skew(2deg);
+       -o-transform: skew(2deg);
+}
+.btn-img35 {
+  width: 58px;
+  height: 96px;
+  opacity: 0.2;
+  position: absolute;
+  top: 613px;
+  left: 241px;
+  z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(1deg);
+  -webkit-transform: skew(1deg);
+     -moz-transform: skew(1deg);
+       -o-transform: skew(1deg);
+}
+.btn-img36 {
+  width: 99px;
+  height: 98px;
+  opacity: 0.2;
+  position: absolute;
+  top: 614px;
+  left: 300px;
+  z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-4deg);
+  -webkit-transform: skew(-4deg);
+     -moz-transform: skew(-4deg);
+       -o-transform: skew(-4deg);
+}
+.btn-img37 {
+  width: 99px;
+ height: 113px;
+ opacity: 0.2;
+ position: absolute;
+ top: 608px;
+ left: 405px;
+ z-index: 1;
+ transition: all 0.1s ease-in-out;
+         transform: skew(6deg);
+  -webkit-transform: skew(6deg);
+     -moz-transform: skew(6deg);
+       -o-transform: skew(6deg);
+}
+a.btn-img37:hover:before {
+  content: '';
+  border: 37px solid red;
+  position: absolute;
+  bottom: 0;
+  left: -6px;
+          transform: skew(-5deg);
+  -webkit-transform: skew(-5deg);
+   -moz-transform: skew(-5deg);
+     -o-transform: skew(-5deg);
+}
+.btn-img38 {
+  width: 112px;
+  height: 117px;
+  opacity: 0.3;
+  position: absolute;
+  top: 611px;
+  left: 515px;
+  z-index: 1;
+  transition: all 0.1s ease-in-out;
+          transform: skew(-5deg);
+  -webkit-transform: skew(-5deg);
+     -moz-transform: skew(-5deg);
+       -o-transform: skew(-5deg);
+}
+a.btn-img38:hover:before {
+    content: '';
+    border: 55px solid red;
+    position: absolute;
+    left: -13px;
+    top: -2px;
+            transform: skew(10deg);
+    -webkit-transform: skew(10deg);
+     -moz-transform: skew(10deg);
+       -o-transform: skew(10deg);
 }
 .btn-img39 {
-  width: 88px;
-  height: 102px;
-  opacity: 0.1;
+  width: 96px;
+  height: 111px;
+  opacity: 0.2;
   position: absolute;
-  top: 618px;
-  left: 634px;
+  top: 614px;
+  left: 625px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-8deg);
+  -webkit-transform: skew(-8deg);
+     -moz-transform: skew(-8deg);
+       -o-transform: skew(-8deg);
 }
 .btn-img40 {
-  width: 91px;
-  height: 96px;
-  opacity: 0.1;
+  width: 95px;
+  height: 100px;
+  opacity: 0.2;
   position: absolute;
-  top: 624px;
-  left: 726px;
+  top: 622px;
+  left: 723px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-5deg);
+  -webkit-transform: skew(-5deg);
+     -moz-transform: skew(-5deg);
+       -o-transform: skew(-5deg);
 }
 .btn-img41 {
-  width: 140px;
-  height: 203px;
-  opacity: 0.1;
+  width: 143px;
+  height: 208px;
+  opacity: 0.2;
   position: absolute;
-  top: 620px;
-  left: 821px;
+  top: 617px;
+  left: 819px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-1deg);
+  -webkit-transform: skew(-1deg);
+     -moz-transform: skew(-1deg);
+       -o-transform: skew(-1deg);
 }
 /**/
 .btn-img42 {
   width: 95px;
   height: 94px;
-  opacity: 0.1;
+  opacity: 0.2;
   position: absolute;
   top: 713px;
   left: 44px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-2deg);
+  -webkit-transform: skew(-2deg);
+     -moz-transform: skew(-2deg);
+       -o-transform: skew(-2deg);
 }
 .btn-img43 {
   width: 92px;
   height: 94px;
-  opacity: 0.1;
+  opacity: 0.2;
   position: absolute;
   top: 713px;
   left: 143px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-2deg);
+  -webkit-transform: skew(-2deg);
+     -moz-transform: skew(-2deg);
+       -o-transform: skew(-2deg);
 }
 .btn-img44 {
   width: 93px;
   height: 94px;
-  opacity: 0.1;
+  opacity: 0.2;
   position: absolute;
   top: 713px;
   left: 240px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-2deg);
+  -webkit-transform: skew(-2deg);
+     -moz-transform: skew(-2deg);
+       -o-transform: skew(-2deg);
 }
 .btn-img45 {
   width: 113px;
   height: 92px;
-  opacity: 0.1;
+  opacity: 0.2;
   position: absolute;
   top: 718px;
   left: 337px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-2deg);
+  -webkit-transform: skew(-2deg);
+     -moz-transform: skew(-2deg);
+       -o-transform: skew(-2deg);
 }
 .btn-img46 {
   width: 77px;
   height: 84px;
-  opacity: 0.1;
+  opacity: 0.2;
   position: absolute;
   top: 732px;
   left: 455px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-2deg);
+  -webkit-transform: skew(-2deg);
+     -moz-transform: skew(-2deg);
+       -o-transform: skew(-2deg);
 }
 .btn-img47 {
   width: 41px;
   height: 89px;
-  opacity: 0.1;
+  opacity: 0.2;
   position: absolute;
   top: 731px;
   left: 540px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-2deg);
+  -webkit-transform: skew(-2deg);
+     -moz-transform: skew(-2deg);
+       -o-transform: skew(-2deg);
 }
 .btn-img48 {
   width: 97px;
   height: 86px;
-  opacity: 0.1;
+  opacity: 0.2;
   position: absolute;
   top: 728px;
   left: 584px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-2deg);
+  -webkit-transform: skew(-2deg);
+     -moz-transform: skew(-2deg);
+       -o-transform: skew(-2deg);
 }
 .btn-img49 {
   width: 54px;
   height: 86px;
-  opacity: 0.1;
+  opacity: 0.2;
   position: absolute;
   top: 724px;
   left: 684px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-2deg);
+  -webkit-transform: skew(-2deg);
+     -moz-transform: skew(-2deg);
+       -o-transform: skew(-2deg);
 }
 .btn-img50 {
   width: 73px;
   height: 201px;
-  opacity: 0.1;
+  opacity: 0.2;
   position: absolute;
   top: 728px;
   left: 741px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-2deg);
+  -webkit-transform: skew(-2deg);
+     -moz-transform: skew(-2deg);
+       -o-transform: skew(-2deg);
 }
 /**/
 .btn-img51 {
   width: 88px;
   height: 100px;
-  opacity: 0.1;
+  opacity: 0.2;
   position: absolute;
   top: 811px;
   left: 53px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-2deg);
+  -webkit-transform: skew(-2deg);
+     -moz-transform: skew(-2deg);
+       -o-transform: skew(-2deg);
 }
 .btn-img52 {
   width: 84px;
   height: 100px;
-  opacity: 0.1;
+  opacity: 0.2;
   position: absolute;
   top: 810px;
   left: 148px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-2deg);
+  -webkit-transform: skew(-2deg);
+     -moz-transform: skew(-2deg);
+       -o-transform: skew(-2deg);
 }
 .btn-img53 {
   width: 90px;
   height: 95px;
-  opacity: 0.1;
+  opacity: 0.2;
   position: absolute;
   top: 810px;
   left: 234px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-2deg);
+  -webkit-transform: skew(-2deg);
+     -moz-transform: skew(-2deg);
+       -o-transform: skew(-2deg);
 }
 .btn-img54 {
   width: 97px;
   height: 98px;
-  opacity: 0.1;
+  opacity: 0.2;
   position: absolute;
   top: 813px;
   left: 336px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-2deg);
+  -webkit-transform: skew(-2deg);
+     -moz-transform: skew(-2deg);
+       -o-transform: skew(-2deg);
 }
 .btn-img55 {
   width: 90px;
   height: 98px;
-  opacity: 0.1;
+  opacity: 0.2;
   position: absolute;
   top: 820px;
   left: 440px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-2deg);
+  -webkit-transform: skew(-2deg);
+     -moz-transform: skew(-2deg);
+       -o-transform: skew(-2deg);
 }
 
 .btn-img56 {
   width: 85px;
   height: 93px;
-  opacity: 0.1;
+  opacity: 0.2;
   position: absolute;
   top: 823px;
   left: 533px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-2deg);
+  -webkit-transform: skew(-2deg);
+     -moz-transform: skew(-2deg);
+       -o-transform: skew(-2deg);
 }
 .btn-img57 {
   width: 112px;
   height: 95px;
-  opacity: 0.1;
+  opacity: 0.2;
   position: absolute;
   top: 819px;
   left: 622px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-2deg);
+  -webkit-transform: skew(-2deg);
+     -moz-transform: skew(-2deg);
+       -o-transform: skew(-2deg);
 }
 .btn-img58 {
   width: 146px;
   height: 106px;
-  opacity: 0.1;
+  opacity: 0.2;
   position: absolute;
   top: 827px;
   left: 815px;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
+          transform: skew(-2deg);
+  -webkit-transform: skew(-2deg);
+     -moz-transform: skew(-2deg);
+       -o-transform: skew(-2deg);
 }

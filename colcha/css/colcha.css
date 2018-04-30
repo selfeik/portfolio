@@ -33,7 +33,10 @@ body {
   flex: auto;
 }
 
-.hidden {
+/*.hidden {
+  display: none;
+}*/
+.is-hidden {
   display: none;
 }
 

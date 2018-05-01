@@ -161,7 +161,8 @@ a.btn-img11:hover:before {
     height: 5px;
     border-radius: 5px 0;
     position: absolute;
-    top: -25px;
+    top: -24px;
+    left: -1px;
 }
 a.btn-img11:hover:after {
     transition: all 0.2s ease-in-out;

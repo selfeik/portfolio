@@ -3,6 +3,7 @@ body {
   background: url('../assets/bg.jpg');
   background-color: #F4F8E1;
   color: #A2000B;
+  margin: 0;
 }
 
 .wrapper {

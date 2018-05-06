@@ -34,7 +34,6 @@
 .artist-h3 {
   text-transform: uppercase;
   font-size: 1rem;
-  font-weight: bolder;
 }
 .artist-p {
   font-size: .8rem;
@@ -42,4 +41,94 @@
 .artist-figcaption {
   border-bottom: 1px solid;
   background: transparent !important;
+}
+
+.slideshow {
+  background: white !important;
+}
+.slideshow li {
+  width: 1200px !important;
+  height: 680px !important;
+  left: 30% !important;
+  margin: -318px 0 0 -330px !important;
+}
+
+.container {
+    overflow: hidden;
+}
+
+.filterDiv {
+    float: left;
+    background-color: #2196F3;
+    color: #ffffff;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 2px;
+    display: none; /* Hidden by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+/* Add a light grey background on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background to the active button */
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+
+/*Slideshow*/
+.infoAdicional h5:first-child{
+  margin-top: 3px;
+}
+.infoAdicional h5 {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 4px;
+    color: #585858;
+    margin-top: 14px;
+}
+.infoAdicional p {
+color: #585858;
+    border-bottom: 1px solid #333;
+    margin-top: -9px !important;
+    font-size: 15px;
+}
+
+.descripcion {
+  margin-top: 30px;
+}
+.descripcion h4 {
+font-size: 15px;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 700;
+    border-bottom: 1px solid;
+}
+.descripcion p {
+  border-bottom: none;
+  column-count: 2;
+  font-size: 14px;
+}
+.descripcion p.teresa-desc{
+  column-count: 3;
 }

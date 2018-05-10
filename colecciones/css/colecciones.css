@@ -98,6 +98,35 @@
   color: white;
 }
 
+/*Filters*/
+.artistFilter h3,
+.originFilter h3 {
+  text-transform: uppercase;
+  font-size: 16px;
+  border-bottom: 1px solid;
+  padding-bottom: 10px;
+}
+.artistFilter ul li,
+.originFilter ul li {
+  background: transparent;
+  border: none;
+  padding: 0 8px;
+  margin: 6px 0;
+}
+li.list-group-item.active {
+  background: transparent;
+  border-bottom: 1px solid rgb(190,180,0) !important;
+  letter-spacing: 3px;
+}
+li.list-group-item a {
+    font-size: 13px;
+}
+li.list-group-item.active a{
+  color: rgb(190,180,0);
+}
+.artistFilter {
+  margin-bottom: 60px;
+}
 
 /*Slideshow*/
 .infoAdicional h5:first-child{

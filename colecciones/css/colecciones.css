@@ -49,8 +49,13 @@
 .slideshow li {
   width: 1200px !important;
   height: 680px !important;
+  top: 45% !important;
   left: 30% !important;
   margin: -318px 0 0 -330px !important;
+}
+
+.slideshow figure {
+  overflow: scroll !important;
 }
 
 .container {

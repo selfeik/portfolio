@@ -1,7 +1,6 @@
 body {
   font-family: 'Rajdhani', sans-serif;
-  background: url('../assets/bg.jpg');
-  background-color: #F4F8E1;
+  background-color: #FFF;
   color: #A2000B;
   margin: 0;
 }
@@ -39,9 +38,9 @@ body {
 }
 
 .colcha-nav {
-  background-color: #FFF8F5;
-  justify-content: space-around;
+  background-color: #FFF;
   height: 91px;
+  box-shadow: 0px 1px 20px gainsboro;
 }
 .colcha-nav a {
   color: #333;

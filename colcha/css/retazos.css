@@ -1,4 +1,5 @@
-.btn-img1 {
+.btn-img1,
+a.btn-img1.active {
   width: 89px;
   height: 76px;
   opacity: 0.1;
@@ -83,7 +84,8 @@
      -moz-transform: skew(-3deg);
        -o-transform: skew(-3deg);
 }
-.btn-img7 {
+.btn-img7,
+a.btn-img7.active {
   width: 92px;
   height: 93px;
   opacity: 0.2;
@@ -97,7 +99,8 @@
      -moz-transform: skew(-5deg);
        -o-transform: skew(-5deg);
 }
-.btn-img8 {
+.btn-img8,
+a.btn-img8.active {
   width: 102px;
   height: 99px;
   opacity: 0.1;

@@ -2,7 +2,11 @@
 /* content */
 .colections-banner {
   background-color: rgb(247,247,247);
-  padding: 4rem 5rem;
+  padding: 6rem 5rem 0rem;
+}
+
+.coleccion {
+  padding: 6rem 5rem 3rem;
 }
 
 .colections-content,
@@ -11,7 +15,7 @@
 }
 .colections-content p {
   margin-top: 24px;
-  text-align: justify;
+  text-align: left;
 }
 .colections-e {
   color: rgb(100,8,97);
@@ -33,10 +37,12 @@
 /* Gallery */
 .artist-h3 {
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: .9rem;
+  font-weight: 500;
 }
 .artist-p {
   font-size: .8rem;
+  font-weight: 300;
 }
 .artist-figcaption {
   border-bottom: 1px solid;
@@ -110,7 +116,7 @@
 .originFilter ul li {
   background: transparent;
   border: none;
-  padding: 0 8px;
+  padding: 0;
   margin: 6px 0;
 }
 li.list-group-item.active {
@@ -120,7 +126,9 @@ li.list-group-item.active {
 }
 li.list-group-item a {
     font-size: 13px;
+    font-weight: 300;
 }
+
 li.list-group-item.active a{
   color: rgb(190,180,0);
 }
@@ -129,6 +137,9 @@ li.list-group-item.active a{
 }
 
 /*Slideshow*/
+.infoAdicionalArtista {
+    margin-bottom: 14px;
+}
 .infoAdicional h5:first-child{
   margin-top: 3px;
 }
@@ -139,12 +150,14 @@ li.list-group-item.active a{
     letter-spacing: 4px;
     color: #585858;
     margin-top: 14px;
+    margin-bottom: 12px;
 }
 .infoAdicional p {
-color: #585858;
+    color: #585858;
     border-bottom: 1px solid #333;
     margin-top: -9px !important;
     font-size: 15px;
+    padding-bottom: 5px;
 }
 
 .descripcion {

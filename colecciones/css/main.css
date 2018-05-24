@@ -1,6 +1,8 @@
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: rgb(247,247,247);
+  color: #414042;
+  font-size: .95rem;
 }
 
 h1, h2 {
@@ -11,11 +13,11 @@ h1, h2 {
 
 h1 {
   text-transform: uppercase;
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 h2 {
   text-transform: lowercase;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 h3 {
   font-size: 1.2rem;
@@ -28,7 +30,7 @@ h1 span {
 }
 
 a {
-  color: #333;
+  color: #414042;
 }
 a:hover {
   text-decoration: none;
@@ -51,13 +53,13 @@ p {
 }
 .colections-header .navbar-nav a {
   text-transform: uppercase;
-  color: #333;
+  color: #414042;
   font-size: .9em;
   letter-spacing: 5px;
 }
 
 /* Banner */
-.container img {
+.container-fluid.coleccion-banner img {
   width: 100%;
 }
 .colections-banner {
@@ -68,8 +70,8 @@ p {
 }
 .coleccion-button {
   position: absolute;
-  top: 200px;
-  right: 120px;
+  top: 260px;
+  right: 200px;
   border: none;
   background: rgb(190,180,0);
   color: white;
@@ -81,6 +83,7 @@ p {
 }
 .coleccion-button:hover {
   color: white;
+  background-color: #B3AC45;
   text-decoration: none;
 }
 
@@ -112,14 +115,14 @@ p {
 .colecciones-a {
   text-transform: uppercase;
   letter-spacing: 8px;
-  color: #333;
+  color: #414042;
   padding: 12px 20px;
   border-bottom: 2px solid rgb(190,180,0);
   float: left;
 }
 .colecciones-a:hover{
   text-decoration: none;
-  color: #333;
+  color: #414042;
 }
 
 /* Footer */

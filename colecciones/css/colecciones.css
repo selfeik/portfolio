@@ -2,7 +2,7 @@
 /* content */
 .colections-banner {
   background-color: rgb(247,247,247);
-  padding: 6rem 5rem 0rem;
+  padding: 3rem 5rem 0rem;
 }
 
 .coleccion {
@@ -22,7 +22,7 @@
 }
 .divider {
   border: .5px solid grey;
-  margin: 28px 0;
+  margin: 60px 0 0 0;
 }
 
 .colections-vocabulary {
@@ -38,7 +38,7 @@
 .artist-h3 {
   text-transform: uppercase;
   font-size: .9rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 .artist-p {
   font-size: .8rem;
@@ -164,12 +164,13 @@ li.list-group-item.active a{
   margin-top: 30px;
 }
 .descripcion h4 {
-font-size: 15px;
-    margin-bottom: 18px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-weight: 700;
-    border-bottom: 1px solid;
+  font-size: 15px;
+  margin-bottom: 18px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 700;
+  border-bottom: 1px solid;
+  padding-bottom: 8px;
 }
 .descripcion p {
   border-bottom: none;
@@ -178,4 +179,10 @@ font-size: 15px;
 }
 .descripcion p.teresa-desc{
   column-count: 3;
+}
+
+/*Glosario*/
+.colections-banner h2{
+  text-transform: initial;
+}
 }

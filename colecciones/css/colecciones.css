@@ -185,11 +185,26 @@ li.list-group-item.active a{
   column-count: 3;
 }
 
-.infoAdicional {
+.infoAdicional-big {
   margin-top: 127px;
 }
 .altas {
   margin-top: 292px;
+}
+.horoscopo-1 {
+  margin-top: 44px;
+}
+
+.first-h {
+    margin-top: 30px;
+}
+.horoscopo-section {
+  margin-bottom: 40px;
+  border-top: 3px solid #cccccc24;
+  padding-top: 30px;
+}
+.info-h {
+    margin-top: 72px;
 }
 
 /*Glosario*/

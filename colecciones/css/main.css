@@ -41,6 +41,11 @@ p {
   letter-spacing: 0.5px;
 }
 
+.colections-info a:hover,
+a.colecciones-a:hover {
+    color: rgb(190,180,0);
+}
+
 /* Menú */
 .sticky-top {
   z-index: 1;
@@ -56,6 +61,8 @@ p {
   color: #414042;
   font-size: .9em;
   letter-spacing: 5px;
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
 }
 
 /* Banner */

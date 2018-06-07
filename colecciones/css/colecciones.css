@@ -192,7 +192,7 @@ li.list-group-item.active a{
   margin-top: 292px;
 }
 .horoscopo-1 {
-  margin-top: 44px;
+  margin-top: 30px;
 }
 
 .first-h {
@@ -205,6 +205,10 @@ li.list-group-item.active a{
 }
 .info-h {
     margin-top: 72px;
+}
+
+li.item:hover {
+  background: #e0dbd86e;
 }
 
 /*Glosario*/

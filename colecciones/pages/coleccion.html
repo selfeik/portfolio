@@ -2054,7 +2054,7 @@
                           <img src="../assets/colecciones/IMG_5102.png" alt="Sin título, 1993"/>
                         </a>
                       </div>
-                      <div class="col-sm-6 infoAdicional infoAdicional-big">
+                      <div class="col-sm-6 infoAdicional altas">
                         <h5>Artista</h5>
                         <p><b>Alejandro Aróstegui (Nicaragua, 1935)</b></p>
                         <h5>Título</h5>
@@ -2620,7 +2620,58 @@
   <script src="../js/cbpGridGallery.js"></script>
   <script src="../js/filter.js"></script>
   <script>
-    new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
+  function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+    results = regex.exec(location.search);
+    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+  }
+    var imagen = getParameterByName('obra');
+    var prueba=new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
+    var obras = new Array();
+
+    //coleccion.html?obra=angulo_palangana
+    obras['angulo_palangana']=0;
+    obras['astudillo_libertad_colombia']=1;
+    obras['barrios_telaraña_magica']=2;
+    obras['cuellar_teye_sin_titulo_1']=3;
+    obras['cuellar_teye_sin_titulo_2']=4;
+    obras['gonzalez_chicamocha']=5;
+    obras['guerrero_sin_titulo_1']=6;
+    obras['guerrero_sin_titulo_2']=7;
+    obras['jaramillo_travesti']=8;
+    obras['lozano_sin_titulo_1']=9;
+    obras['lozano_sin_titulo_2']=10;
+    obras['luna_sin_titulo_1']=11;
+    obras['luna_sin_titulo_2']=12;
+    obras['ravassa_farallon']=13;
+    obras['rayo_garzara']=14;
+    obras['roda_invasion']=15;
+    obras['roda_asi']=16;
+    obras['roda_sin_titulo_1']=17;
+    obras['roda_sin_titulo_2']=18;
+    obras['roda_horoscopo_chino']=19;
+    obras['roda_horoscopo']=20;
+    obras['rojas_sin_titulo_1']=21;
+    obras['zalamea_estudio']=22;
+    obras['zalamea_estudio_ciudad_montanas_bogota']=23;
+    obras['arostegui_sin_titulo_1']=24;
+    obras['arostegui_sin_titulo_2']=25;
+    obras['arostegui_sin_titulo_3']=26;
+    obras['cardenas_sin_titulo_1']=27;
+    obras['cardenas_sin_titulo_2']=28;
+    obras['chab_joven_saltimbanqui']=29;
+    obras['endara_crow_sin_titulo_1']=30;
+    obras['endara_crow_serie_tren_volador']=31;
+    obras['manaure_sin_titulo_1']=32;
+    obras['manaure_serie_suelos_tierra']=33;
+    obras['oramas_teddy_boy']=34;
+    obras['oramas_sin_titulo_1']=35;
+    obras['valera_sin_titulo_1']=36;
+
+    if(imagen !=""){
+      prueba._openSlideshow( obras[imagen] );
+    }
   </script>
 
   <script>
@@ -2635,13 +2686,18 @@
         $(this).parent().addClass('active');
 
         if(ourClass === 'all') {
+          location.reload();
           // show all our items
-          $('#ourHolder').find('li.item').show();
+          //$('#ourHolder').find('li.item').show();
         }
         else {
           // hide all elements that don't share ourClass
-          $('#ourHolder').find('li:not(.' + ourClass + ')').hide();
+          $('#ourHolder').find('li:not(.' + ourClass + ')').css("display", "none");
           // show all elements that do share ourClass
+          $('#ourHolder').find('ul').addClass('custom_height');
+           $('#ourHolder').find('li.' + ourClass).css("position", "relative");
+            $('#ourHolder').find('li.' + ourClass).css("top", "0px");
+            $('#ourHolder').find('li.' + ourClass).css("left", "0px");
           $('#ourHolder').find('li.' + ourClass).show();
         }
         return false;

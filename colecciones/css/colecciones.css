@@ -207,12 +207,50 @@ li.list-group-item.active a{
     margin-top: 72px;
 }
 
-li.item:hover {
+/*li.item:hover {
   background: #e0dbd86e;
-}
+}*/
 
 /*Glosario*/
 .colections-banner h2{
   text-transform: initial;
 }
+
+.grid {
+    min-height: 1000px !important;
+    overflow: scroll;
 }
+
+.custom_height {
+    height: 100% !important;
+
+}
+
+.custom_height {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*.RobertoAngulo,
+.EverAstudillo,
+.AlvaroBarrios,
+.TeresaCuellar,
+.BeatrizGonzalez,
+.AlfredoGuerrero,
+.OscarJaramillo,
+.MargaritaLozano,
+.ArnulfoLuna,
+.GerardoRavassa,
+.OmarRayo,
+.JuanAntonioRoda,
+.CarlosRojas,
+.GustavoZalamea,
+.AlejandroArostegui,
+.AgustinCardenas,
+.VictorChab,
+.GonzaloEndaraCrow,
+.MateoManaure,
+.AlirioOramas,
+.VictorValera {
+  height: 50%;
+}*/

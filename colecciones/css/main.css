@@ -77,8 +77,8 @@ a.colecciones-a:hover {
 }
 .coleccion-button {
   position: absolute;
-  top: 260px;
-  right: 200px;
+  top: 268px;
+  right: 130px;
   border: none;
   background: rgb(190,180,0);
   color: white;
@@ -149,4 +149,13 @@ footer a {
 }
 .mx-auto {
   text-align: center;
+}
+
+.carousel-control-prev-icon {
+  position: absolute;
+  left: 20px;
+}
+.carousel-control-next-icon {
+  position: absolute;
+  right: 20px;
 }

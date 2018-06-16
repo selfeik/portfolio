@@ -909,3 +909,10 @@ a.btn-img53:hover:after {
 a.btn-img58:hover {
   border-radius: 5px 0 46px 0 !important;
 }
+
+
+/*Images*/
+.imagesRetazos img {
+  width: 70%;
+  margin-bottom: 30px;
+}

@@ -257,3 +257,14 @@ li.list-group-item.active a{
 .VictorValera {
   height: 50%;
 }*/
+
+.container {
+    -ms-overflow-style: none !important;  // IE 10+
+    overflow: -moz-scrollbars-none !important;  // Firefox
+}
+.container::-webkit-scrollbar {
+    display: none !important;  // Safari and Chrome
+}
+::-webkit-scrollbar {
+display: none !important;
+}

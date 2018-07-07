@@ -77,8 +77,8 @@ a.colecciones-a:hover {
 }
 .coleccion-button {
   position: absolute;
-  top: 268px;
-  right: 130px;
+  top: 45%;
+  right: 10%;
   border: none;
   background: rgb(190,180,0);
   color: white;
